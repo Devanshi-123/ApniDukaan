@@ -1,0 +1,19 @@
+.head {
+  background-image: linear-gradient(15deg, #198d68 0%, #fffc55 100%);
+}
+.head {
+  /*background: url("../assets/background image/Rectangle.png");*/
+  min-height: 20vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+h2 {
+  color: white;
+  padding-top: 1rem;
+}
+@media only screen and (max-width: 500px) {
+  .head {
+    height: auto;
+    width: 100vw;
+  }
+}
